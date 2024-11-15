@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(242, 242, 242, 1);
+    
+}
+/*header*/
+.header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 40px;
+}
+.header-item1 {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    background-color: black;
+    position: relative;
+    right: 20px;
+    color: white;
+    width: 90px;
+    border-radius: 50px;
+}
+.header-item1 img{
+    width: 20px;
+}
+
+.header-item2{display: flex;
+    align-items: flex-end;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header-item3{display: flex;
+    justify-content: flex-end;
+}
+.header-item3 img{
+    width: 20px;
+}
+
+/*inicio*/
+.inicio{
+    display:flex;
+    justify-content: center;
+    margin: 10%;
+}
+.inicio1{
+    display: flex;
+    flex-direction: column;
+}
+.inicio1 img{
+    width: 100%;
+}
+.inicio1.eslogan{
+    font-size: 10px;
+}
+.inicio1 .info{
+    font-size: 10px;
+}
+
+.inicio2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inicio2 img{display: flex;
+    align-self: flex-end;
+    width: 90%;
+}
+
+.inicio2 button{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+.inicio2 button img{
+    display: flex;
+    align-self: center;
+    width: 15px;
+}
+
+.redes{
+    position:fixed;
+    width: 40px;
+    right: 0px;
+    top: 45px;
+}
+
+/*como jugar*/
+.comojugar{
+    margin: 10%;
+}
+.informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.informacion .info{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+}
+
+.paso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.paso .numero img{
+    position: relative;
+    left: -38px;
+    width: 70px;
+    z-index: -1;
+}
+.paso .numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30px;
+    top: 5px;
+    color:white;
+    font-size: 20px;
+    z-index: 2;
+}
+.paso .info{
+    margin: 10px;
+    font-size: 12px;
+}
+.paso .icon img{
+    width: 90px ;
+}
+
+/* apoyanos*/
+
+.apoyanos{
+    margin: 10%;
+}
+.apoyanos .info{
+    display:flex
+}
+
+.apoyanos .info p{display: flex;
+    align-items: center;
+    font-size: 12px;
+    width: 60%;
+}
+.apoyanos .info img{
+    width: 150px;
+}
+.apoyanos .button button {
+    position: relative;
+    left: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+
+/*sobre nosotros*/
+.nosotros{
+    margin: 10%;
+}
+
+.nosotros .info{
+    display:flex
+}
+
+.nosotros .info p{display: flex;
+    align-items: center;
+    font-size: 12px;
+    width: 60%;
+}
+
+.nosotros .img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.izquierda{
+    width: 40px;
+}
+.derecha{
+    width: 64px;}
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+footer div img{
+    width: 10px;
+}
+
+footer div{
+    margin: 0 2%;
+}
